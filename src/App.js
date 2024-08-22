@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Bridge from './components/Bridge';
+import Category from './components/Category';
+import Collections from './components/Collections';
+import Feature from './components/Feature';
+import Footer from './components/Footer';
+import Homepage from './components/Homepage';
+import Last from './components/Last';
+import Nav from './components/Nav'
+import Special from './components/Special';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav></Nav>
+      <Homepage></Homepage>
+      <Feature></Feature>
+      <Category></Category>
+      <Collections></Collections>
+      <Special></Special>
+      <Bridge></Bridge>
+      <Last></Last>
+      <Footer></Footer>
     </div>
   );
 }
