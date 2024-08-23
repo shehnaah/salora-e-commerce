@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 
 function Nav() {
+  // to enable collapsed toggle button 
   useEffect(()=>{
     const handleScroll = () => {
       const navbar = document.querySelector('.navbar');
@@ -13,7 +14,6 @@ function Nav() {
 
     window.addEventListener('scroll', handleScroll);
 
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -22,6 +22,7 @@ function Nav() {
 <div>
 <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
   <div class="container-fluid">
+    {/* offset navbar in collapsed screen */}
     <a class="navbar-brand" href="#">Salora</a>
     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -54,7 +55,7 @@ function Nav() {
         </button>
       </div>
     </div>
-
+{/* normal navbar in large screensizes */}
     <div class="collapse navbar-collapse d-none d-lg-flex justify-content-between" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 mb-lg-0 text-black">
         <li class="nav-item">

@@ -62,16 +62,13 @@ nav.navbar {
 
 .container-fluid{
   max-width: 100%;
-  overflow-x: hidden; /* Prevent horizontal overflow */
+  overflow-x: hidden; 
 }
 .navbar button{
   margin-right: 50px;
   background-color: transparent;
   color: black;
 }
-/* .navbar,.btn,.left{
-  margin-left: 50px;
-} */
 .home{
   width: 100%;
   padding-top: 120px;
@@ -211,7 +208,6 @@ nav.navbar {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
-  /* height: 100vh; */
   width: 90%; 
   justify-content: center;
   align-items: center;
@@ -466,19 +462,6 @@ font-weight: bold;
 }
 
 /* collection */
-.container1 {
-  width: 80%;
-  /* max-width: 1200px; */
-  margin: 0 auto;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 700px;
-  height: auto;
-}
 .grid-collection {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
@@ -505,23 +488,6 @@ font-weight: bold;
   margin-top: 25px;
   background-color: #f0ebe9;
 }
-.shapes-left{
-  /* left: 0;
-  top: 70%; */
-  height: 350px;
-  /* transform: translate(10%, -30%); */
-  background-color: #ccc;
-}
-.rectangle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 120%;
-  height: 80%;
-  background-color: #f0ebe9;
-  transform: translate(-50%, -50%) rotate(0deg);
-  z-index: -1; /* Ensure the rectangle is behind the image */
-}
 .itm1{
   display: flex;
   align-items: center;
@@ -532,16 +498,6 @@ font-weight: bold;
   justify-content: end;
   align-items: end;
 }
-.shapes-right{
-  left: 0;
-  /* top: 90%; */
-  height: 350px;
-  /* transform: translate(-10%, -20%); */
-  background-color: #ccc;
-}
-
-/* Background shapes */
-
 /* Content area */
 .contents {
   z-index: 2;
@@ -695,10 +651,6 @@ font-weight: bold;
   flex-direction: row;
   column-gap: 15px;
 }
-/* special */
-/* .special{
-  margin-top: 150px;
-} */
 .special-products {
   display: flex;
   flex-direction: column;
@@ -720,7 +672,6 @@ font-weight: bold;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   overflow: hidden;
-  /* padding-right: 100px; */
 }
 
 .product-item {
@@ -769,17 +720,6 @@ font-weight: bold;
   border-radius: 2px;
   transform: translate(10%,620%);
 }
-.product-info button{
-  background-color: white;
-  border: none;
-  outline: none;
-  font-family: "Raleway", sans-serif;
-  font-size: 14;
-  font-weight: 500;
-  color: #D0AC96;
-  transform: translate(300%,-100%);
-}
-
 .cta-link span {
   margin-left: 5px;
 }
@@ -837,7 +777,6 @@ font-weight: bold;
 .img-grid img{
   width: 100%;
   height: 100%;
-  /* background: url('./img/lady-image.jpg'); */
   object-fit: cover;
   background-repeat: no-repeat;
 }
@@ -882,21 +821,6 @@ font-weight: bold;
     width: 80%;
     height: 350px;
   }
-  .shapes-left{
-    left: 0;
-    top: 70%;
-    height: 350px;
-    /* transform: translate(10%, -60%); */
-    background-color: #ccc;
-  }
-  .rectangle{
-    width: 80%;
-    height: 130%;
-  }
-  .shapes-right{
-    width: 80%; 
-    /* transform: translate(-5%, -50%); */
-  }
 
 }
 @media screen and (max-width: 1200px)  {
@@ -940,18 +864,6 @@ font-weight: bold;
     width: 80%; 
     transform: translate(-5%, -50%);
   }
-  /* .side1{
-    width: 200px;
-    height: 250px;
-    margin-top: 50px;
-    background-color: #f0ebe9;
-  }
-  .side2{
-    width: 300px;
-    height: 250px;
-    margin-top: 50px;
-    background-color: #f0ebe9;
-  } */
 
 }
 @media screen and (max-width: 1024px)  {
@@ -962,10 +874,11 @@ font-weight: bold;
   padding-left: 0;
   margin-left: 0px;
 }
-
 #testimonialCarousel{
   margin-left: 0px;
   padding-left: 0;
+  width: 50%;
+
 }
 .navbar-brand{
   padding-left:0px;
@@ -1005,20 +918,17 @@ font-weight: bold;
       flex: 1; 
       margin: 0; 
   }
-  #testimonialCarousel{
-    width: 50%;
-    /* padding-top: 20px; */
-  }
    .review{
       padding-top: 30px;
+      padding-left: 10px;
       width: 250px;
    }
    .review p{
       width: 400px;
    }
-   .line{
+   /* .line{
       display: none !important;
-  }
+  } */
   .special-products {
     display: flex;
     flex-direction: column;
@@ -1154,10 +1064,6 @@ font-weight: bold;
   .review h5,.review h6{
     text-align: left;
   }
-
-  .line{
-     display: none !important;
- }
  .product-grid{
   gap: 10px;
   grid-template-columns: 420px 420px;
@@ -1381,6 +1287,9 @@ font-weight: bold;
   }
   #testimonialCarousel{
     width: 100%;
+  }
+  .line{
+    display: none !important;
   }
   .review {
     padding-top: 60px;
@@ -2110,8 +2019,6 @@ align-items: center;
     padding: 5px;
     transform: translate(35%,450%);
   }
-  
-
 }
 @media(max-width: 370px)  {
   .grid-collection{
@@ -2126,8 +2033,6 @@ align-items: center;
     padding: 5px;
     transform: translate(25%,450%);
 
-  }
-  .itm3{
   }
   .background-shapes{
     width: 120px;

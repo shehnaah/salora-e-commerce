@@ -5,30 +5,6 @@ function Collections() {
   return (
     <div>
       <section className="collections">
-{/* <div className="container1 mt-5 mb-5">
-
-    <div className="contents">
-<div>
-        <p className="subtitle">THE TEAM THAT MADE OUR JOB</p>
-        <h1>Jewelry for Everybody</h1>
-        <p className="description">We have a range of products to treat and protect your skin including: Skin care products for the face, neck and scalp.</p>
-        <ul className="features-list">
-            <li><i className="fa-solid fa-check fa-sm" style={{color:'#359e2e'}}></i> Nonstop Jewelry</li>
-            <li><i className="fa-solid fa-check fa-sm" style={{color:'#359e2e'}}></i> Style And Form</li>
-            <li><i className="fa-solid fa-check fa-sm" style={{color:'#359e2e'}}></i> Jewelry For Everybody</li>
-        </ul>
-  
-</div>  
-<div className="background-shape shape-left">
-  <img src={earing} alt="" style={{width:'100%',height:'100%'}}/>
-</div>
-  <div className="background-shape shape-right">
-  <img src={earing} alt="" style={{width:'100%',height:'100%'}}/>
-  </div>
-
-  </div>
-  
-</div> */}
 
 <div className="grid-collection">
         <div className="itm itm1">

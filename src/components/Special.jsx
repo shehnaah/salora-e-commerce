@@ -9,7 +9,8 @@ function Special() {
         { id: 3, title: 'Special Golden Earrings', price: '$300' },
         { id: 4, title: 'Miro Jewelry Bracelets', price: '$260' },
       ];
-      const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 870);
+      // to apply card in screensize less than870
+      const [isLargeScreen, setIsLargeScreen] = useState (window.innerWidth > 870);
 
   useEffect(() => {
     const handleResize = () => {
