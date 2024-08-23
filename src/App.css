@@ -65,9 +65,11 @@ nav.navbar {
   overflow-x: hidden; 
 }
 .navbar button{
-  margin-right: 50px;
-  background-color: transparent;
+  margin-right: 45px;
+  background-color: rgba(187, 181, 181, 0.404);
   color: black;
+  outline: none;
+  border: none;
 }
 .home{
   width: 100%;
@@ -208,7 +210,7 @@ nav.navbar {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
-  width: 90%; 
+  width: 92%; 
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -333,10 +335,10 @@ nav.navbar {
 .footer{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   padding-top: 100px;
-  padding-left: 50px;
+  padding-left: 60px;
   padding-bottom: 30px;
 }
 .salora h5,.touch h5,.social h5,.news h5{
@@ -657,7 +659,7 @@ font-weight: bold;
   justify-content: center;
   align-items: left;
   width: 100%;
-  padding: 100px;
+  padding: 80px 60px;
   background-color: #fff;
 }
 
@@ -787,6 +789,9 @@ font-weight: bold;
 .navbar-brand,.left h1,.texts,.get{
   padding-left: 0;
   margin-left: 0px;
+}
+.left{
+  padding-left: 60px;
 }
 
 #testimonialCarousel{
@@ -1091,6 +1096,7 @@ font-weight: bold;
  }
  .product-image button{
   width: 20rem;
+  margin-right: 20%;
  }
  .product-item{
   width: 100%;

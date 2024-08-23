@@ -74,7 +74,7 @@ function Nav() {
           <a class="nav-link" href="#">Contact Us</a>
         </li>
       </ul>
-      <button class="btn btn-light navbar-button disabled text-dark">
+      <button class="btn  navbar-button  ">
         <i class="fa-solid fa-phone-flip fa-sm"></i> (205) 444-0100
       </button>
     </div>
