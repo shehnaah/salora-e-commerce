@@ -40,14 +40,12 @@ function Special() {
               <p className="price">{product.price}</p>
             </div>
             <div className="product-image">
-              <img
-                src={earing}
-                alt={product.title}
-                style={{ width: '70%', height: '100%', objectFit: 'cover' }}
-              />
-              <button href="#" className="cta-link">
+            <button href="#" className="cta-link">
                 Get Started <i className="fa-solid fa-right-long"></i>
               </button>
+              <div
+                className='product-img'
+              />
             </div>
           </div>
         ) : (
