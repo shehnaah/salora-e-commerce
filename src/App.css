@@ -877,7 +877,7 @@ font-weight: bold;
 #testimonialCarousel{
   margin-left: 0px;
   padding-left: 0;
-  width: 50%;
+  width: 80%;
 
 }
 .navbar-brand{
@@ -892,7 +892,7 @@ font-weight: bold;
   }
   .texts{
     padding-top: 0;
-    width: 50%;
+    width: 100%;
   }
   .left h1{
     padding-left: 0px;
@@ -924,7 +924,10 @@ font-weight: bold;
       width: 250px;
    }
    .review p{
-      width: 400px;
+      width: 700px;
+   }
+   .testimonial{
+    width: 100%;
    }
    /* .line{
       display: none !important;
